@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heart{
+    position: fixed;
+    top: -30%;
+    left: 0;
+    animation-name: Move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    height: auto;
+}
+@keyframes Move{
+    from{
+        top: 0%;
+    }to{
+        top: 100%;
+    }
+}
